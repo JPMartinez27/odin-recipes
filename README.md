@@ -1,1 +1,2 @@
 # odin-recipes
+The outline of this project is to create a webpage that contains 3 different recipes. Each recipe is to have its own link from the homepage, and is to contain a title, photo, brief description, ingredients in an unordered list, and steps in an ordered list. While developing this webpage, committing to Git using atomic commits is also required.
