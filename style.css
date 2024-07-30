@@ -1,0 +1,18 @@
+* {
+    background: burlywood;
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+    background-color: transparent;
+    font-weight: 400;
+    text-align: center;
+}
+
+.soup, .yakisoba, .bread {
+    text-align: left;
+    font-weight: 500;
+    color: black;
+    font-size: 25px;
+}
