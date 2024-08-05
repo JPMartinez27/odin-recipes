@@ -1,5 +1,8 @@
 * {
     background: burlywood;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -8,11 +11,20 @@ h1 {
     background-color: transparent;
     font-weight: 400;
     text-align: center;
+    margin: 35px;
 }
 
 .soup, .yakisoba, .bread {
-    text-align: left;
+    text-align: center;
     font-weight: 500;
     color: black;
     font-size: 25px;
+
+    height: 60px;
+    width: 500px;
+    align-content: center;
+
+    margin: 0 auto;
+    padding: 0px;
 }
+
