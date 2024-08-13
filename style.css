@@ -3,28 +3,70 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: block;
+    font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+    background-color: grey;
+}
+a:hover{
+    color: lightblue;
+    text-decoration: none;
+    background-color: grey;
+}
+a:active{
+    color: white;
+    text-decoration: none;
+    background-color: grey;
 }
 
-h1 {
+.main {
+    height: 500px;
+    width: 600px;
+    border: 5px black solid;
+    margin: 100px;
+    align-content: center;
+
+
+}
+
+
+.page-name {
+    height: 150px;
+    width: 500px;
+
     font-size: 50px;
     color: black;
     background-color: transparent;
     font-weight: 400;
+    align-content: center;
     text-align: center;
-    margin: 35px;
+
+    margin-left: 50px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    border-bottom: 3px black solid;
 }
 
-.soup, .yakisoba, .bread {
-    text-align: center;
-    font-weight: 500;
-    color: black;
-    font-size: 25px;
-
+a {
     height: 60px;
     width: 500px;
-    align-content: center;
 
-    margin: 0 auto;
+    font-weight: 500;
+    color: black;
+    background-color: grey;
+    font-size: 25px;  
+
+    align-content: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 20px;
     padding: 0px;
+    border: 3px black solid;
 }
 
